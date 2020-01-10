@@ -1,0 +1,11 @@
+# AnimationCardTemplate
+[AnimationCard
+        Title=Animation Card
+        Subtitle=look at it animate 
+        autostart=true
+        autoloop=true
+        Image=https://docs.microsoft.com/en-us/bot-framework/media/how-it-works/architecture-resize.png
+        Image=https://docs.microsoft.com/en-us/bot-framework/media/how-it-works/architecture-resize.png
+        Image=https://docs.microsoft.com/en-us/bot-framework/media/how-it-works/architecture-resize.png
+        Media=https://www.animationplayhouse.com/aalion.gif
+]

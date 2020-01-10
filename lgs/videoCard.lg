@@ -1,0 +1,13 @@
+# VideoCardTemplate(type)
+[VideoCard
+        title=Cheese gromit!
+        subtitle=@{type}
+        text=This is some text describing the card, it's cool because it's cool
+        image=https://memegenerator.net/img/instances/500x/73055378/cheese-gromit.jpg
+        buttons=Option 1| Option 2| Option 3
+        Media=https://youtu.be/530FEFogfBQ
+        Shareable=false
+        Autoloop=true
+        Autostart=true
+        Aspect=16:9
+]

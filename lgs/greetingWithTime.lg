@@ -1,0 +1,7 @@
+# timeOfDayGreetingTemplate (param1)
+- IF: @{param1 == 'morning'}
+    - good morning
+- ELSEIF: @{param1 == 'afternoon'}
+    - good afternoon
+- ELSE: 
+    - good evening

@@ -1,0 +1,32 @@
+#cardActivity(question, button1, button2)
+[Activity
+    Attachments = @{json(card(question, button1, button2))}
+]
+
+#card(question, button1, button2)
+- ```
+{    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+      {
+        "type": "TextBlock",
+        "text": "@{question}",
+        "size": "large",
+        "weight": "bolder"
+      }
+    ],
+    "actions": [
+      {
+        "type": "Action.Submit",
+        "title": "@{button1}",
+        "data": "@{button1}"
+      },
+      {
+        "type": "Action.Submit",
+        "title": "@{button2}",
+        "data": "@{button2}"
+      }
+    ]
+}
+```
